@@ -1,0 +1,8 @@
+2025-07-04 22:39:16,538 | INFO | Start polling
+2025-07-04 22:39:36,563 | ERROR | Polling error: HTTPConnectionPool(host='api.isportsapi.com', port=80): Max retries exceeded with url: /sport/football/livescores?api_key=VEM3L91m7eguSCla (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70437f4a2480>: Failed to resolve 'api.isportsapi.com' ([Errno -3] Temporary failure in name resolution)"))
+2025-07-04 22:39:43,690 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-04 22:39:46,077 | INFO | [START] ChatID: 2116777065 | Username: @iamkaizen | Name: 1amKaiz3n | ID: 2116777065
+2025-07-04 22:39:46,077 | INFO | Update id=484962693 is handled. Duration 2003 ms by bot id=7760376256
+2025-07-04 22:39:55,621 | WARNING | Received SIGINT signal
+2025-07-04 22:39:55,623 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-04 22:39:55,623 | INFO | Polling stopped
