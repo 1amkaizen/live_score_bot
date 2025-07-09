@@ -21,12 +21,11 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler("user.log"),  # log user disimpan ke file
-        logging.StreamHandler()          # tetap tampil di terminal
+        logging.FileHandler("user.log"),
+        logging.StreamHandler()
     ]
 )
 
-# Bot setup
 bot = Bot(
     token=settings.bot_token,
     default=DefaultBotProperties(parse_mode=ParseMode.HTML)
@@ -74,14 +73,60 @@ async def toggle_3_1_handler(message: Message):
 # Loop polling live score
 notified = set()
 
+from datetime import datetime, date, timedelta
+from api_client import fetch_live_scores, fetch_tomorrow_fixtures
+
+# Tambahan state global
+notified_empty_today = False
+notified_schedule_tomorrow = False
+last_notified_day = None
+
 async def polling_loop():
+    global notified_empty_today, notified_schedule_tomorrow, last_notified_day
+    logging.info("[LOOP] Start polling loop")
+
     while True:
         try:
+            today = date.today().isoformat()
+
+            if today != last_notified_day:
+                last_notified_day = today
+                notified_empty_today = False
+                notified_schedule_tomorrow = False
+                logging.info("[LOOP] Hari baru, reset notifikasi")
+
+            # Cek pertandingan hari ini
+            logging.info("[LOOP] Fetching live scores...")
             matches = fetch_live_scores()
+            logging.info(f"[LOOP] Fetched {len(matches)} pertandingan hari ini")
+
             user_settings_dict = load_settings()
 
+            if not matches and not notified_empty_today:
+                for chat_id_str in user_settings_dict:
+                    await bot.send_message(int(chat_id_str), "📭 Tidak ada pertandingan hari ini.")
+                notified_empty_today = True
+                await asyncio.sleep(300)
+                continue
+
+            # Kirim jadwal besok
+            if not notified_schedule_tomorrow:
+                logging.info("[LOOP] Fetching tomorrow's fixtures...")
+                tomorrow_str, tomorrow_matches = fetch_tomorrow_fixtures()
+                logging.info(f"[LOOP] Dapat {len(tomorrow_matches)} jadwal besok ({tomorrow_str})")
+
+                if tomorrow_matches:
+                    msg = f"📅 Jadwal pertandingan besok:\n"
+                    for m in tomorrow_matches:
+                        time_str = m["starting_at"].split(" ")[1][:5]
+                        msg += f"🕑 {time_str} {m['name']} ({m['league']['name']})\n"
+                    for chat_id_str in user_settings_dict:
+                        await bot.send_message(int(chat_id_str), msg)
+                notified_schedule_tomorrow = True
+
+            # Kirim notifikasi kondisi pertandingan
             for match in matches:
-                match_id = match['matchId']
+                match_id = match['id']
                 for chat_id_str, user_config in user_settings_dict.items():
                     chat_id = int(chat_id_str)
                     notifs = check_conditions(match, user_config)
@@ -93,9 +138,13 @@ async def polling_loop():
                         notified.add(key)
 
         except Exception as e:
+            import traceback
             logging.error(f"Polling error: {e}")
+            traceback.print_exc()
 
         await asyncio.sleep(10)
+        logging.info("[LOOP] Sleep selesai, lanjut loop berikutnya")
+
 
 # Main
 async def main():

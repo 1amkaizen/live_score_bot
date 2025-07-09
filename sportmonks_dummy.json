@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Man City vs Real Madrid",
+      "starting_at": "2025-07-08 19:00:00",
+      "minute": 70,
+      "home_team_name": "Man City",
+      "away_team_name": "Real Madrid",
+      "scores": [
+        {
+          "description": "CURRENT",
+          "score": { "goals": 3, "participant": "home" }
+        },
+        {
+          "description": "CURRENT",
+          "score": { "goals": 2, "participant": "away" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bayern vs PSG",
+      "starting_at": "2025-07-08 18:00:00",
+      "minute": 45,
+      "home_team_name": "Bayern",
+      "away_team_name": "PSG",
+      "home_half_score": 2,
+      "away_half_score": 2,
+      "scores": [
+        {
+          "description": "CURRENT",
+          "score": { "goals": 2, "participant": "home" }
+        },
+        {
+          "description": "CURRENT",
+          "score": { "goals": 2, "participant": "away" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Juventus vs Milan",
+      "starting_at": "2025-07-08 19:45:00",
+      "minute": 62,
+      "home_team_name": "Juventus",
+      "away_team_name": "Milan",
+      "scores": [
+        {
+          "description": "CURRENT",
+          "score": { "goals": 0, "participant": "home" }
+        },
+        {
+          "description": "CURRENT",
+          "score": { "goals": 0, "participant": "away" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Barcelona vs Atletico",
+      "starting_at": "2025-07-08 21:00:00",
+      "minute": 80,
+      "home_team_name": "Barcelona",
+      "away_team_name": "Atletico",
+      "scores": [
+        {
+          "description": "CURRENT",
+          "score": { "goals": 4, "participant": "home" }
+        },
+        {
+          "description": "CURRENT",
+          "score": { "goals": 1, "participant": "away" }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chelsea vs Arsenal",
+      "starting_at": "2025-07-08 20:30:00",
+      "minute": 75,
+      "home_team_name": "Chelsea",
+      "away_team_name": "Arsenal",
+      "scores": [
+        {
+          "description": "CURRENT",
+          "score": { "goals": 1, "participant": "home" }
+        },
+        {
+          "description": "CURRENT",
+          "score": { "goals": 3, "participant": "away" }
+        }
+      ]
+    }
+  ]
+}

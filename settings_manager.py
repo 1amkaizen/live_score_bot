@@ -24,7 +24,14 @@ def save_settings(settings):
 
 def get_user_settings(user_id: int):
     settings = load_settings()
-    return settings.get(str(user_id), DEFAULT_SETTINGS.copy())
+    user_id_str = str(user_id)
+
+    if user_id_str not in settings:
+        settings[user_id_str] = DEFAULT_SETTINGS.copy()
+        save_settings(settings)
+
+    return settings[user_id_str]
+
 
 def toggle_user_setting(user_id: int, key: str):
     settings = load_settings()

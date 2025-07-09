@@ -6,3 +6,130 @@
 2025-07-04 22:39:55,621 | WARNING | Received SIGINT signal
 2025-07-04 22:39:55,623 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
 2025-07-04 22:39:55,623 | INFO | Polling stopped
+2025-07-08 23:17:39,665 | INFO | Start polling
+2025-07-08 23:17:41,264 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:17:41,581 | ERROR | Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 23:17:41,581 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7760376256)
+2025-07-08 23:17:47,293 | ERROR | Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 23:17:47,294 | WARNING | Sleep for 1.120983 seconds and try again... (tryings = 1, bot id = 7760376256)
+2025-07-08 23:17:53,344 | ERROR | Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 23:17:53,345 | WARNING | Sleep for 1.597094 seconds and try again... (tryings = 2, bot id = 7760376256)
+2025-07-08 23:17:59,991 | ERROR | Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 23:17:59,992 | WARNING | Sleep for 1.947158 seconds and try again... (tryings = 3, bot id = 7760376256)
+2025-07-08 23:18:01,378 | WARNING | Received SIGINT signal
+2025-07-08 23:18:01,382 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:18:01,388 | INFO | Polling stopped
+2025-07-08 23:18:56,037 | INFO | Start polling
+2025-07-08 23:19:01,026 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:19:32,000 | INFO | Update id=484962770 is handled. Duration 1076 ms by bot id=7760376256
+2025-07-08 23:19:34,611 | INFO | Update id=484962771 is handled. Duration 523 ms by bot id=7760376256
+2025-07-08 23:19:37,124 | INFO | Update id=484962772 is handled. Duration 495 ms by bot id=7760376256
+2025-07-08 23:19:40,855 | INFO | Update id=484962773 is handled. Duration 527 ms by bot id=7760376256
+2025-07-08 23:19:43,778 | INFO | Update id=484962774 is handled. Duration 465 ms by bot id=7760376256
+2025-07-08 23:19:45,966 | INFO | Update id=484962775 is handled. Duration 485 ms by bot id=7760376256
+2025-07-08 23:19:48,331 | INFO | Update id=484962776 is handled. Duration 512 ms by bot id=7760376256
+2025-07-08 23:19:50,787 | INFO | Update id=484962777 is handled. Duration 613 ms by bot id=7760376256
+2025-07-08 23:19:52,674 | INFO | Update id=484962778 is handled. Duration 452 ms by bot id=7760376256
+2025-07-08 23:19:58,599 | WARNING | Received SIGINT signal
+2025-07-08 23:19:58,601 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:19:58,602 | INFO | Polling stopped
+2025-07-08 23:20:04,040 | INFO | Start polling
+2025-07-08 23:20:05,435 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:20:29,810 | INFO | [START] ChatID: 2116777065 | Username: @iamkaizen | Name: 1amKaiz3n | ID: 2116777065
+2025-07-08 23:20:29,810 | INFO | Update id=484962779 is handled. Duration 1253 ms by bot id=7760376256
+2025-07-08 23:22:42,826 | WARNING | Received SIGINT signal
+2025-07-08 23:22:42,828 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:22:42,829 | INFO | Polling stopped
+2025-07-08 23:22:51,210 | INFO | Start polling
+2025-07-08 23:22:51,210 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:22:52,140 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:23:01,212 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:11,217 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:21,227 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:31,230 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:41,237 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:54,755 | INFO | Start polling
+2025-07-08 23:23:54,756 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:23:55,643 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:24:04,766 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:24:10,348 | WARNING | Received SIGINT signal
+2025-07-08 23:24:10,353 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:24:10,356 | INFO | Polling stopped
+2025-07-08 23:24:30,457 | INFO | Start polling
+2025-07-08 23:24:30,458 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:24:31,573 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:24:40,468 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:24:50,474 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:24:55,544 | WARNING | Received SIGINT signal
+2025-07-08 23:24:55,546 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:24:55,547 | INFO | Polling stopped
+2025-07-08 23:25:06,886 | INFO | Start polling
+2025-07-08 23:25:06,887 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:25:07,815 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:25:16,898 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:25:26,904 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:25:33,332 | WARNING | Received SIGINT signal
+2025-07-08 23:25:33,333 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:25:33,334 | INFO | Polling stopped
+2025-07-08 23:25:41,083 | INFO | Start polling
+2025-07-08 23:25:41,084 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:25:41,895 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:25:51,094 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:26:01,100 | ERROR | Polling error: [Errno 2] No such file or directory: 'sportmonks_dummy.json'
+2025-07-08 23:26:10,663 | WARNING | Received SIGINT signal
+2025-07-08 23:26:10,665 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:26:10,667 | INFO | Polling stopped
+2025-07-08 23:26:23,104 | INFO | Start polling
+2025-07-08 23:26:23,108 | ERROR | Polling error: 'matchId'
+2025-07-08 23:26:24,064 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:26:33,119 | ERROR | Polling error: 'matchId'
+2025-07-08 23:26:43,126 | ERROR | Polling error: 'matchId'
+2025-07-08 23:26:53,136 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:03,141 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:13,152 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:23,155 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:33,164 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:43,167 | ERROR | Polling error: 'matchId'
+2025-07-08 23:27:53,176 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:03,179 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:13,186 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:23,189 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:33,196 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:43,202 | ERROR | Polling error: 'matchId'
+2025-07-08 23:28:47,025 | WARNING | Received SIGINT signal
+2025-07-08 23:28:47,026 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:28:47,027 | INFO | Polling stopped
+2025-07-08 23:32:13,329 | INFO | Start polling
+2025-07-08 23:32:14,511 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:35:44,590 | WARNING | Received SIGINT signal
+2025-07-08 23:35:44,592 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:35:44,593 | INFO | Polling stopped
+2025-07-08 23:38:30,223 | INFO | Start polling
+2025-07-08 23:38:32,159 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:40:09,984 | WARNING | Received SIGINT signal
+2025-07-08 23:40:09,986 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:40:09,987 | INFO | Polling stopped
+2025-07-08 23:40:15,012 | INFO | Start polling
+2025-07-08 23:40:19,065 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:40:20,090 | WARNING | Received SIGINT signal
+2025-07-08 23:40:20,092 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:40:20,098 | INFO | Polling stopped
+2025-07-08 23:42:02,821 | INFO | Start polling
+2025-07-08 23:42:04,625 | INFO | Run polling for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:42:27,810 | WARNING | Received SIGINT signal
+2025-07-08 23:42:27,812 | INFO | Polling stopped for bot @skorlive_bot id=7760376256 - 'skorlivebot'
+2025-07-08 23:42:27,818 | INFO | Polling stopped
+2025-07-09 12:32:09,759 | INFO | Start polling
+2025-07-09 12:33:19,002 | INFO | Start polling
+2025-07-09 12:35:09,105 | INFO | Start polling
+2025-07-09 12:36:18,739 | INFO | Start polling
+2025-07-09 12:36:44,641 | INFO | Start polling
+2025-07-09 12:38:35,160 | INFO | Start polling
+2025-07-09 12:39:13,928 | INFO | Start polling
+2025-07-09 12:39:13,929 | INFO | [LOOP] Start polling loop
+2025-07-09 12:40:42,411 | INFO | Start polling
+2025-07-09 12:40:42,412 | INFO | [LOOP] Start polling loop
+2025-07-09 12:42:41,362 | INFO | Start polling
+2025-07-09 12:42:41,363 | INFO | [LOOP] Start polling loop
+2025-07-09 12:42:41,363 | INFO | [LOOP] Hari baru, reset notifikasi
+2025-07-09 12:42:41,363 | INFO | [LOOP] Fetching live scores...
