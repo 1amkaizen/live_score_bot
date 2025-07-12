@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 from settings import settings
+from datetime import date, timedelta
 
 def fetch_live_scores():
     today = datetime.utcnow().strftime('%Y-%m-%d')
